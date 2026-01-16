@@ -1,0 +1,6 @@
+<div class="m-4">
+    <h2>
+        Fancy display heading
+        <small class="text-muted">With faded secondary text</small>
+    </h2>
+</div>

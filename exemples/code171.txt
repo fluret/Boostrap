@@ -1,0 +1,38 @@
+<div class="m-4">
+    <!-- Large pagination -->
+    <nav>
+        <ul class="pagination pagination-lg">
+            <li class="page-item disabled"><span class="page-link">Previous</span></li>
+            <li class="page-item active"><a href="#" class="page-link">1</a></li>
+            <li class="page-item"><a href="#" class="page-link">2</a></li>
+            <li class="page-item"><a href="#" class="page-link">3</a></li>
+            <li class="page-item"><a href="#" class="page-link">4</a></li>
+            <li class="page-item"><a href="#" class="page-link">5</a></li>
+            <li class="page-item"><a href="#" class="page-link">Next</a></li>
+        </ul>
+    </nav>
+    <!-- Default pagination -->
+    <nav>
+        <ul class="pagination">
+            <li class="page-item disabled"><span class="page-link">Previous</span></li>
+            <li class="page-item active"><a href="#" class="page-link">1</a></li>
+            <li class="page-item"><a href="#" class="page-link">2</a></li>
+            <li class="page-item"><a href="#" class="page-link">3</a></li>
+            <li class="page-item"><a href="#" class="page-link">4</a></li>
+            <li class="page-item"><a href="#" class="page-link">5</a></li>
+            <li class="page-item"><a href="#" class="page-link">Next</a></li>
+        </ul>
+    </nav>
+    <!-- Small pagination -->
+    <nav>
+        <ul class="pagination pagination-sm">
+            <li class="page-item disabled"><span class="page-link">Previous</span></li>
+            <li class="page-item active"><a href="#" class="page-link">1</a></li>
+            <li class="page-item"><a href="#" class="page-link">2</a></li>
+            <li class="page-item"><a href="#" class="page-link">3</a></li>
+            <li class="page-item"><a href="#" class="page-link">4</a></li>
+            <li class="page-item"><a href="#" class="page-link">5</a></li>
+            <li class="page-item"><a href="#" class="page-link">Next</a></li>
+        </ul>
+    </nav>
+</div>

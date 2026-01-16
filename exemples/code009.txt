@@ -1,0 +1,22 @@
+<div class="container">
+    <!--Row with three equal columns-->
+    <div class="row">
+        <div class="col-lg-4">Column left</div>
+        <div class="col-lg-4">Column middle</div>
+        <div class="col-lg-4">Column right</div>
+    </div>
+    
+    <!--Row with three columns divided in 1:4:1 ratio-->
+    <div class="row">
+        <div class="col-lg-2">Column left</div>
+        <div class="col-lg-8">Column middle</div>
+        <div class="col-lg-2">Column right</div>
+    </div>
+    
+    <!--Row with three columns divided unevenly-->
+    <div class="row">
+        <div class="col-lg-3">Column left</div>
+        <div class="col-lg-7">Column middle</div>
+        <div class="col-lg-2">Column right</div>
+    </div>
+</div>

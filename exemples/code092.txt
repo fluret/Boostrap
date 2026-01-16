@@ -1,0 +1,12 @@
+<div class="m-4">
+    <form>
+        <div class="form-check form-check-inline">
+            <input type="radio" class="form-check-input" name="customRadio" id="customRadio1">
+            <label class="form-check-label" for="customRadio1">Custom radio</label>
+        </div>
+        <div class="form-check form-check-inline ms-4">
+            <input type="radio" class="form-check-input" name="customRadio" id="customRadio2" checked>
+            <label class="form-check-label" for="customRadio2">Another custom radio</label>
+        </div>
+    </form>
+</div>

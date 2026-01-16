@@ -1,0 +1,297 @@
+/* === HELPER CLASSES CSS OPTIMISÉ === */
+
+/* Reset & Base Styles */
+html, body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+  min-width: 1320px;
+  color: #414141;
+  background: #fafafa;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  margin: 24px;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  color: #262626;
+  margin: 20px 0 10px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 34px;
+  margin-top: 17px;
+}
+
+h1 span {
+  color: inherit;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+/* Paragraphes */
+p {
+  margin: 0 0 15px;
+}
+
+/* Links */
+a, a:active, a:visited {
+  outline: none;
+  color: #1db79f;
+  text-decoration: none;
+}
+
+/* Code - Style amélioré */
+code {
+  padding: 3px 8px;
+  font-size: 92%;
+  color: #d63384;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+  display: inline-block;
+  line-height: 1.4;
+}
+
+code:hover {
+  background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%);
+  border-color: #adb5bd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
+}
+
+/* Code dans les cellules de tableau */
+table td code {
+  font-size: 90%;
+  padding: 2px 6px;
+}
+
+/* Tables de base */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table td {
+  vertical-align: top;
+}
+
+/* Classes utilitaires */
+.summary {
+  border: 1px solid #eaeaea;
+  border-width: 1px 0;
+  margin: 20px 0;
+  padding: 10px 0;
+  color: #8e9aa6;
+}
+
+.clearfix::after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* Color codes display */
+.color-code {
+  margin: 0 2px;
+  font-family: monospace;
+}
+
+.color-code i {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border: 1px solid #6a6a6a;
+  margin-right: 2px;
+}
+
+/* Bottom navigation */
+.bottom-link {
+  margin-top: 30px;
+}
+
+a.previous-page-bottom,
+a.next-page-bottom {
+  display: inline-block;
+  padding: 8px 15px;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+a.next-page-bottom {
+  float: right;
+}
+
+.bottom-ad {
+  margin-top: 50px;
+  padding: 28px;
+  background: #f9f9f9;
+}
+
+/* === TABLEAUX BOOTSTRAP AMÉLIORÉS === */
+.shadow {
+  background: #F7F8F9;
+  padding: 3px;
+  margin: 15px 0 20px;
+}
+
+.table-responsive {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.table thead th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  border-bottom: 2px solid #dee2e6;
+  padding: 12px 8px;
+}
+
+.table tbody tr {
+  transition: background-color 0.15s ease-in-out;
+}
+
+.table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.table td,
+.table th {
+  padding: 14px 10px;
+  vertical-align: middle;
+}
+
+/* === MODALS BOOTSTRAP === */
+.modal-dialog {
+  width: 50vw;
+  max-width: 90vw;
+}
+
+.modal-lg {
+  width: 50vw;
+  max-width: 90vw;
+}
+
+.modal-body {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.modal-body pre {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 13px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: Consolas, Monaco, Courier, monospace;
+}
+
+/* === RESPONSIVE === */
+@media screen and (max-width: 1340px) {
+  body {
+    min-width: 1300px;
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  body {
+    min-width: 1280px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  body {
+    min-width: 1260px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  body {
+    min-width: 1240px;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  body {
+    min-width: 1220px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    min-width: 100%;
+    max-width: 100%;
+    padding-top: 46px;
+  }
+
+  .shadow,
+  .table-responsive {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  .bottom-ad {
+    padding: 18px 0 0;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  body {
+    margin: 15px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  body {
+    min-width: 1350px;
+  }
+}

@@ -1,0 +1,8 @@
+<div class="m-4">
+    <ul class="list-inline">
+        <li class="list-inline-item">Home</li>
+        <li class="list-inline-item">Products</li>
+        <li class="list-inline-item">About Us</li>
+        <li class="list-inline-item">Contact</li>
+    </ul>
+</div>

@@ -1,0 +1,4 @@
+<div class="m-4">
+    <a href="#" class="btn btn-primary disabled">Primary link</a>
+    <a href="#" class="btn btn-secondary disabled">Secondary link</a>
+</div>

@@ -1,0 +1,12 @@
+<div class="m-4">
+    <!-- Block level element -->
+    <div class="row">
+        <div class="col-2 text-truncate">
+            The quick brown fox jumps over the lazy dog.
+        </div>
+    </div>
+    <!-- Inline level element -->
+    <span class="d-inline-block text-truncate" style="max-width: 100px;">
+        The quick brown fox jumps over the lazy dog.
+    </span>
+</div>

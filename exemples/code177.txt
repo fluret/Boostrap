@@ -1,0 +1,8 @@
+<div class="m-4">
+    <nav class="nav flex-column">
+        <a href="#" class="nav-item nav-link active">Home</a>
+        <a href="#" class="nav-item nav-link">Profile</a>
+        <a href="#" class="nav-item nav-link">Messages</a>
+        <a href="#" class="nav-item nav-link disabled" tabindex="-1">Reports</a>
+    </nav>
+</div>

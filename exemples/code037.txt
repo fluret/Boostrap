@@ -1,0 +1,5 @@
+<div class="m-4">
+    <p class="text-lowercase">The quick brown fox jumps over the lazy dog.</p>
+    <p class="text-uppercase">The quick brown fox jumps over the lazy dog.</p>
+    <p class="text-capitalize">The quick brown fox jumps over the lazy dog.</p>
+</div>

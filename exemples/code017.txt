@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row align-items-start">
+        <div class="col">Column one</div>
+        <div class="col">Column two</div>
+        <div class="col">Column three</div>
+    </div>
+    <div class="row align-items-center">
+        <div class="col">Column one</div>
+        <div class="col">Column two</div>
+        <div class="col">Column three</div>
+    </div>
+    <div class="row align-items-end">
+        <div class="col">Column one</div>
+        <div class="col">Column two</div>
+        <div class="col">Column three</div>
+    </div>
+</div>

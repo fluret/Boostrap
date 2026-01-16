@@ -1,0 +1,7 @@
+<div class="m-4">
+    <div class="d-grid gap-2 d-md-block">
+        <button type="button" class="btn btn-primary">Button</button>
+        <button type="button" class="btn btn-secondary">Button</button>
+    </div>
+    <p class="mt-3"><strong>Note:</strong> Change editor layout to see how it really works.</p>
+</div>

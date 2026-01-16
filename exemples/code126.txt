@@ -1,0 +1,22 @@
+<div class="m-4">
+    <!-- Large button group -->
+    <div class="btn-group mb-2 btn-group-lg">
+        <button type="button" class="btn btn-primary">Home</button>
+        <button type="button" class="btn btn-primary">About</button>
+        <button type="button" class="btn btn-primary">Services</button>
+    </div>
+    <br>
+    <!-- Default button group -->
+    <div class="btn-group mb-2">
+        <button type="button" class="btn btn-primary">Home</button>
+        <button type="button" class="btn btn-primary">About</button>
+        <button type="button" class="btn btn-primary">Services</button>
+    </div>
+    <br>
+    <!-- Small button group -->
+    <div class="btn-group btn-group-sm">
+        <button type="button" class="btn btn-primary">Home</button>
+        <button type="button" class="btn btn-primary">About</button>
+        <button type="button" class="btn btn-primary">Services</button>
+    </div>
+</div>

@@ -1,0 +1,888 @@
+<!-- Explanation Modals for Layout Examples -->
+
+<!-- Modal Explanation 1 -->
+<div class="modal fade" id="explainModal1" tabindex="-1" aria-labelledby="explainModalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header bg-info text-white">
+                <h5 class="modal-title" id="explainModalLabel1">Explication - Layout 1 (2 colonnes égales)</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container mt-4">
+                    <h3>Structure du Layout 1</h3>
+                    <p>Ce layout présente une structure simple et classique avec deux colonnes de taille égale dans le contenu principal.</p>
+                    
+                    <h4 className="mt-4">Composants</h4>
+                    <ul>
+                        <li><strong>Header</strong> : Banneau supérieur qui s'étend sur la largeur totale (col-md-12)</li>
+                        <li><strong>Contenu</strong> : Deux colonnes de 6 unités chacune (col-md-6), prenant chacune 50% de la largeur</li>
+                        <li><strong>Footer</strong> : Pied de page qui s'étend sur la largeur totale (col-md-12)</li>
+                    </ul>
+                    
+                    <h4 className="mt-4">Système de Grille</h4>
+                    <p>Basé sur la grille 12 colonnes de Bootstrap :</p>
+                    <ul>
+                        <li>Chaque colonne de contenu = 6/12 = 50% de la largeur disponible</li>
+                        <li>Le point de rupture "md" s'applique à partir de 768px de largeur d'écran</li>
+                        <li>Sur les petits écrans (&lt;768px), les colonnes se transforment en colonnes de 100% de largeur</li>
+                    </ul>
+                    
+                    <h4 className="mt-4">Styles Appliqués</h4>
+                    <ul>
+                        <li>Header et Footer : Fond gris (#2f2f2f), hauteur minimale</li>
+                        <li>Colonnes de contenu : Fonds en gris clair, hauteur minimale de 200px</li>
+                        <li>Alternance de couleurs pour mieux différencier les colonnes</li>
+                    </ul>
+                    
+                    <h4 className="mt-4">Cas d'Usage</h4>
+                    <p>Ce layout est idéal pour :</p>
+                    <ul>
+                        <li>Les pages avec deux sections de contenu égales</li>
+                        <li>Les comparaisons côte à côte (avant/après, produit A vs produit B)</li>
+                        <li>Les pages d'accueil avec deux colonnes de contenu</li>
+                        <li>Les mises en page simples et équilibrées</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Explanation 2 -->
+<div class="modal fade" id="explainModal2" tabindex="-1" aria-labelledby="explainModalLabel2" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header bg-info text-white">
+                <h5 class="modal-title" id="explainModalLabel2">Explication - Layout 2 (3 colonnes inégales)</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container mt-4">
+                    <h3>Structure du Layout 2</h3>
+                    <p>Ce layout présente le classique "Sidebar + Content" avec une barre latérale de navigation et un contenu principal large.</p>
+                    
+                    <h4 className="mt-4">Composants</h4>
+                    <ul>
+                        <li><strong>Header</strong> : Banneau supérieur plein écran (col-md-12)</li>
+                        <li><strong>Sidebar</strong> : Navigation latérale gauche (col-md-3, soit 25% de la largeur)</li>
+                        <li><strong>Content</strong> : Zone principale de contenu (col-md-9, soit 75% de la largeur)</li>
+                        <li><strong>Footer</strong> : Pied de page plein écran (col-md-12)</li>
+                    </ul>
+                    
+                    <h4 className="mt-4">Système de Grille</h4>
+                    <p>Distribution 3/9 des 12 colonnes :</p>
+                    <ul>
+                        <li>Sidebar = 3 colonnes (25%)</li>
+                        <li>Content = 9 colonnes (75%)</li>
+                        <li>Tous les éléments (Header/Footer/Sidebar/Content) s'alignent sur les mêmes points de grille</li>
+                    </ul>
+                    
+                    <h4 className="mt-4">Styles Appliqués</h4>
+                    <ul>
+                        <li>Sidebar : Fond gris clair (#d4d4d4) pour la distinguer</li>
+                        <li>Content : Fond blanc ou très clair</li>
+                        <li>Header/Footer : Fond gris foncé pour délimiter les zones</li>
+                    </ul>
+                    
+                    <h4 className="mt-4">Cas d'Usage</h4>
+                    <p>Ce layout est parfait pour :</p>
+                    <ul>
+                        <li>Les blogs avec navigation latérale</li>
+                        <li>Les sites de documentation</li>
+                        <li>Les tableaux de bord avec menu de navigation</li>
+                        <li>Les pages produit avec catégories latérales</li>
+                        <li>Les interfaces d'administration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Explanation 3 -->
+<div class="modal fade" id="explainModal3" tabindex="-1" aria-labelledby="explainModalLabel3" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header bg-info text-white">
+                <h5 class="modal-title" id="explainModalLabel3">Explication - Layout 3 (Content + Sidebars)</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container mt-4">
+                    <h3>Structure du Layout 3</h3>
+                    <p>Un layout asymétrique avec un contenu principal large à gauche et une barre latérale droite subdivisée en deux sections.</p>
+                    
+                    <h4 className="mt-4">Composants</h4>
+                    <ul>
+                        <li><strong>Header</strong> : Banneau supérieur (col-md-12)</li>
+                        <li><strong>Content Principal</strong> : Colonne gauche large (col-md-7, soit 58% de la largeur)</li>
+                        <li><strong>Sidebar Supérieure</strong> : Première section de la colonne droite (col-md-5)</li>
+                        <li><strong>Sidebar Inférieure</strong> : Deuxième section de la colonne droite (col-md-5)</li>
+                        <li><strong>Footer</strong> : Pied de page (col-md-12)</li>
+                    </ul>
+                    
+                    <h4 className="mt-4">Système de Grille</h4>
+                    <p>Distribution 7/5 avec sous-grille dans la colonne droite :</p>
+                    <ul>
+                        <li>Content = 7 colonnes (58%)</li>
+                        <li>Sidebar droit = 5 colonnes (42%), contenant deux rangées imbriquées</li>
+                        <li>Les sous-éléments du sidebar utilisent col-md-12 pour remplir leur parent</li>
+                    </ul>
+                    
+                    <h4 className="mt-4">Styles Appliqués</h4>
+                    <ul>
+                        <li>Content Principal : Fond blanc avec hauteur minimale</li>
+                        <li>Sidebars : Fonds en gris pour les distinguer</li>
+                        <li>Alternance de couleurs entre sidebar-top et sidebar-bottom</li>
+                    </ul>
+                    
+                    <h4 className="mt-4">Cas d'Usage</h4>
+                    <p>Idéal pour :</p>
+                    <ul>
+                        <li>Les blogs avec barre latérale droite</li>
+                        <li>Les articles avec widgets connexes</li>
+                        <li>Les pages produit avec filtres et informations supplémentaires</li>
+                        <li>Les portails d'information avec contenu principal et sections annexes</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Explanation 4 -->
+<div class="modal fade" id="explainModal4" tabindex="-1" aria-labelledby="explainModalLabel4" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header bg-info text-white">
+                <h5 class="modal-title" id="explainModalLabel4">Explication - Layout 4 (3 colonnes égales)</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container mt-4">
+                    <h3>Structure du Layout 4</h3>
+                    <p>Un layout symétrique et équilibré avec trois colonnes de taille égale, flanquées de deux sidebars.</p>
+                    
+                    <h4 className="mt-4">Composants</h4>
+                    <ul>
+                        <li><strong>Header</strong> : Banneau supérieur (col-lg-12)</li>
+                        <li><strong>Sidebar Gauche</strong> : Navigation ou widgets (col-lg-4)</li>
+                        <li><strong>Content Principal</strong> : Contenu central (col-lg-4)</li>
+                        <li><strong>Sidebar Droit</strong> : Contenu additionnel (col-lg-4)</li>
+                        <li><strong>Footer</strong> : Pied de page (col-lg-12)</li>
+                    </ul>
+                    
+                    <h4 className="mt-4">Système de Grille</h4>
+                    <p>Distribution égale 4/4/4 des 12 colonnes :</p>
+                    <ul>
+                        <li>Chaque colonne = 4 colonnes Bootstrap (33,33% de la largeur)</li>
+                        <li>Utilise le point de rupture "lg" pour les écrans ≥992px</li>
+                        <li>Sur les écrans plus petits, les colonnes s'empilent</li>
+                    </ul>
+                    
+                    <h4 className="mt-4">Styles Appliqués</h4>
+                    <ul>
+                        <li>Sidebars : Fond gris (#d4d4d4) avec hauteur minimale</li>
+                        <li>Content : Fond blanc ou très clair</li>
+                        <li>Header/Footer : Fonds sombres pour délimitation</li>
+                    </ul>
+                    
+                    <h4 className="mt-4">Cas d'Usage</h4>
+                    <p>Parfait pour :</p>
+                    <ul>
+                        <li>Les galeries avec contenu central et widgets latéraux</li>
+                        <li>Les tableaux de bord équilibrés</li>
+                        <li>Les sites avec navigation double latérale</li>
+                        <li>Les pages avec trois sections de contenu égales</li>
+                        <li>Les interfaces de comparaison</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Explanation 5 -->
+<div class="modal fade" id="explainModal5" tabindex="-1" aria-labelledby="explainModalLabel5" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header bg-info text-white">
+                <h5 class="modal-title" id="explainModalLabel5">Explication - Layout 5 (3 colonnes inégales)</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container mt-4">
+                    <h3>Structure du Layout 5</h3>
+                    <p>Un layout asymétrique avec un contenu principal au centre (plus grand) et deux sidebars plus petites de chaque côté.</p>
+                    
+                    <h4 className="mt-4">Composants</h4>
+                    <ul>
+                        <li><strong>Header</strong> : Banneau supérieur (col-lg-12)</li>
+                        <li><strong>Sidebar Gauche</strong> : Navigation (col-lg-3, soit 25%)</li>
+                        <li><strong>Content Principal</strong> : Contenu central (col-lg-6, soit 50%)</li>
+                        <li><strong>Sidebar Droit</strong> : Widgets/info (col-lg-3, soit 25%)</li>
+                        <li><strong>Footer</strong> : Pied de page (col-lg-12)</li>
+                    </ul>
+                    
+                    <h4 className="mt-4">Système de Grille</h4>
+                    <p>Distribution 3/6/3 des 12 colonnes :</p>
+                    <ul>
+                        <li>Sidebars = 3 colonnes chacun (25%)</li>
+                        <li>Content = 6 colonnes (50%)</li>
+                        <li>Équilibre : sidebars plus petits, contenu dominant</li>
+                    </ul>
+                    
+                    <h4 className="mt-4">Styles Appliqués</h4>
+                    <ul>
+                        <li>Content Central : Fond blanc/très clair, position visuelle dominante</li>
+                        <li>Sidebars : Fonds gris pour les différencier</li>
+                        <li>Tous avec hauteurs minimales définies</li>
+                    </ul>
+                    
+                    <h4 className="mt-4">Cas d'Usage</h4>
+                    <p>Idéal pour :</p>
+                    <ul>
+                        <li>Les blogs avec sidebars de widgets</li>
+                        <li>Les articles avec navigation et contenu connexe</li>
+                        <li>Les pages d'accueil avec contenu principal et sidebars</li>
+                        <li>Les interfaces avec contenu principal central</li>
+                        <li>Les magazine layouts</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Explanation 6 -->
+<div class="modal fade" id="explainModal6" tabindex="-1" aria-labelledby="explainModalLabel6" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header bg-info text-white">
+                <h5 class="modal-title" id="explainModalLabel6">Explication - Layout 6 (3 colonnes complexes)</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container mt-4">
+                    <h3>Structure du Layout 6</h3>
+                    <p>Un layout complexe avec sidebars gauche et droit, et un contenu central avec une sous-grille comportant des sections imbriquées.</p>
+                    
+                    <h4 className="mt-4">Composants</h4>
+                    <ul>
+                        <li><strong>Header</strong> : Banneau supérieur plein écran</li>
+                        <li><strong>Sidebar Gauche</strong> : Navigation (col-3, soit 25%)</li>
+                        <li><strong>Contenu Central</strong> : Sous-grille complexe (col-md-7, soit ~58%)
+                            <ul>
+                                <li>Section supérieure : Zone de contenu principal</li>
+                                <li>Section inférieure : Deux colonnes de contenu</li>
+                            </ul>
+                        </li>
+                        <li><strong>Sidebar Droit</strong> : Widgets compacts (col-2, soit ~17%)</li>
+                        <li><strong>Footer</strong> : Pied de page plein écran</li>
+                    </ul>
+                    
+                    <h4 className="mt-4">Système de Grille</h4>
+                    <p>Distribution 3/7/2 avec sous-grille imbriquée :</p>
+                    <ul>
+                        <li>Sidebar gauche = 3 colonnes (25%)</li>
+                        <li>Content central = 7 colonnes (58%), contenant une ligne avec 2 colonnes d'enfants</li>
+                        <li>Sidebar droit = 2 colonnes (17%)</li>
+                        <li>Démontre le concept de "nesting" (imbrication) en Bootstrap</li>
+                    </ul>
+
+                    <h4 className="mt-4">⚠️ Comportement Responsive Actuel</h4>
+                    <p><strong>Les deux sidebars conservent leur largeur fixe sur tous les écrans</strong> :</p>
+                    <ul>
+                        <li><strong>Sidebar gauche</strong> : <code>col-3</code> (25% sur tous écrans, y compris mobile)</li>
+                        <li><strong>Sidebar droit</strong> : <code>col-2</code> (~17% sur tous écrans)</li>
+                    </ul>
+                    <p>Sur mobile, cela peut créer des sidebars très étroites et peu lisibles.</p>
+
+                    <h4 className="mt-4">💡 Amélioration Recommandée (mobile-first)</h4>
+                    <p>Pour que les sidebars passent en <strong>pleine largeur sur mobile</strong> et conservent leur largeur fixe sur desktop :</p>
+                    <ul>
+                        <li>Remplacer <code>col-3</code> par <code>col-12 col-md-3</code> (sidebar gauche)</li>
+                        <li>Remplacer <code>col-2</code> par <code>col-12 col-md-2</code> (sidebar droit)</li>
+                    </ul>
+                    <p><strong>Explication du principe mobile-first</strong> :</p>
+                    <ul>
+                        <li><code>col-12</code> s'applique <strong>à toutes les tailles</strong> par défaut (100% de largeur)</li>
+                        <li><code>col-md-3</code> <strong>écrase</strong> col-12 à partir du breakpoint <code>md</code> (≥768px)</li>
+                        <li>Résultat : <strong>100% sur mobile</strong> (< 768px), puis <strong>25% sur tablette/desktop</strong> (≥ 768px)</li>
+                        <li>Pattern standard Bootstrap : <code>col-12 col-md-X</code> = "pleine largeur mobile, puis X colonnes desktop"</li>
+                    </ul>
+                    
+                    <h4 className="mt-4">Styles Appliqués</h4>
+                    <ul>
+                        <li>Sidebars : Fond gris standard</li>
+                        <li>Content-top : Fond blanc</li>
+                        <li>Content-bottom : Fonds alternés pour la distinction</li>
+                        <li>Responsive : Container-fluid pour meilleure adaptabilité</li>
+                    </ul>
+                    
+                    <h4 className="mt-4">Cas d'Usage</h4>
+                    <p>Parfait pour :</p>
+                    <ul>
+                        <li>Les dashboards complexes</li>
+                        <li>Les pages avec sidebars double et contenu subdivisé</li>
+                        <li>Les applications web modernes</li>
+                        <li>Les interfaces avec plusieurs niveaux de hiérarchie</li>
+                        <li>La démonstration de nesting Bootstrap avancé</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Explanation 7 -->
+<div class="modal fade" id="explainModal7" tabindex="-1" aria-labelledby="explainModalLabel7" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header bg-info text-white">
+                <h5 class="modal-title" id="explainModalLabel7">Explication - Layout 7 (Layout convertible)</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container mt-4">
+                    <h3>📱 Vue d'ensemble</h3>
+                    <p>Layout 7 est un <strong>layout simple et efficace</strong> qui illustre parfaitement le comportement de la grille Bootstrap sans breakpoint spécifique. Avec ses <strong>2 sections à 50%</strong>, il démontre comment Bootstrap gère automatiquement le responsive sur les très petits écrans.</p>
+                    
+                    <hr class="my-4">
+                    
+                    <h3>🏗️ Structure HTML</h3>
+                    <ul>
+                        <li><strong>Header</strong> : Banneau supérieur pleine largeur (<code>col-12</code>)</li>
+                        <li><strong>Introduction</strong> : Section de présentation pleine largeur (<code>col-12</code>)</li>
+                        <li><strong>Section 1</strong> : Première colonne (<code>col-6</code>)</li>
+                        <li><strong>Section 2</strong> : Deuxième colonne (<code>col-6</code>, fond alterné)</li>
+                        <li><strong>Footer</strong> : Pied de page pleine largeur (<code>col-12</code>)</li>
+                    </ul>
+
+                    <hr class="my-4">
+                    
+                    <h3>🔍 Comportement des classes <code>col-6</code></h3>
+                    <h4 className="mt-3">📐 Principe fondamental</h4>
+                    <p>La classe <code>col-6</code> signifie <strong>"6 colonnes sur 12"</strong>, soit <strong>50% de largeur</strong>. Contrairement à <code>col-md-6</code> ou <code>col-lg-6</code>, cette classe <strong>n'a pas de breakpoint spécifique</strong> — elle s'applique à <strong>tous les écrans sans exception</strong>.</p>
+
+                    <h4 className="mt-3">🖥️ Sur tous les écrans (mobile, tablette, desktop)</h4>
+                    <ul>
+                        <li>Les deux sections restent <strong>TOUJOURS côte à côte</strong></li>
+                        <li>Chaque section occupe <strong>exactement 50% de la largeur</strong></li>
+                        <li>Même à <strong>384px</strong>, les deux sections tiennent sur <strong>une seule ligne</strong> (mais à l'étroit)</li>
+                        <li>C'est le comportement <strong>uniforme</strong> de <code>col-6</code></li>
+                    </ul>
+                    <pre class="bg-light p-3 border rounded small">
+À TOUS les breakpoints (y compris 384px):
+| Section 1 (50%) | Section 2 (50%) |
+(Peut être très étroit sur mobile!)
+                    </pre>
+
+                    <h4 className="mt-3">⚠️ Inconvénient sur petit écran</h4>
+                    <p>À <strong>384px</strong>, deux colonnes à 50% chacune donnent :</p>
+                    <ul>
+                        <li>Section 1 : 192px de largeur</li>
+                        <li>Section 2 : 192px de largeur</li>
+                        <li><strong>Problème UX</strong> : Colonnes très étroites, texte difficile à lire</li>
+                    </ul>
+                    <p><strong>C'est pourquoi</strong> on utilise plutôt <code>col-12 col-sm-6</code> ou <code>col-sm-6</code> pour avoir un meilleur responsive.</p>
+
+                    <h4 className="mt-3">⚙️ Mécanisme technique</h4>
+                    <p>Bootstrap 5 applique simplement :</p>
+                    <ul>
+                        <li><code>flex-basis: 50%</code> pour <code>col-6</code> sur <strong>TOUS les écrans</strong></li>
+                        <li>Pas de media query pour modifier ce comportement</li>
+                        <li>Pas d'empilement automatique</li>
+                    </ul>
+
+                    <hr class="my-4">
+
+                    <h3>🆚 Comparaison avec classes à breakpoint</h3>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Classe</th>
+                                <th>< 576px (xs)</th>
+                                <th>≥ 576px (sm)</th>
+                                <th>≥ 768px (md)</th>
+                                <th>≥ 992px (lg)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><code>col-6</code></td>
+                                <td><strong>50% (côte à côte)</strong></td>
+                                <td>50%</td>
+                                <td>50%</td>
+                                <td>50%</td>
+                            </tr>
+                            <tr>
+                                <td><code>col-sm-6</code></td>
+                                <td>100% (empilé)</td>
+                                <td>50%</td>
+                                <td>50%</td>
+                                <td>50%</td>
+                            </tr>
+                            <tr>
+                                <td><code>col-md-6</code></td>
+                                <td>100% (empilé)</td>
+                                <td>100% (empilé)</td>
+                                <td>50%</td>
+                                <td>50%</td>
+                            </tr>
+                            <tr>
+                                <td><code>col-lg-6</code></td>
+                                <td>100% (empilé)</td>
+                                <td>100% (empilé)</td>
+                                <td>100% (empilé)</td>
+                                <td>50%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><strong>Conclusion</strong> : <code>col-6</code> est <strong>NON-responsif</strong> — il reste 50% partout. <code>col-sm-6</code> est plus responsive pour le mobile.</p></p>
+
+                    <hr class="my-4">
+                    
+                    <h3>📊 Composants et styles</h3>
+                    <ul>
+                        <li><strong>Header</strong> : Hauteur min 90px, fond <code>#2f2f2f</code></li>
+                        <li><strong>Intro</strong> : Hauteur min 250px, fond <code>#7e8aa0</code></li>
+                        <li><strong>Sections</strong> : Hauteur min 150px, fonds alternés (<code>#dbdfe5</code> et <code>#b4bac0</code>)</li>
+                        <li><strong>Footer</strong> : Hauteur min 60px, fond <code>#2f2f2f</code></li>
+                        <li><strong>Icons</strong> : Font Awesome avec numérotation centrée</li>
+                    </ul>
+
+                    <hr class="my-4">
+
+                    <h3>✅ Amélioration recommandée pour mobile</h3>
+                    <p>Pour un meilleur responsive, remplacer <code>col-6</code> par <code>col-sm-6</code> ou <code>col-12 col-sm-6</code> :</p>
+                    <ul>
+                        <li><code>col-sm-6</code> : 100% sur mobile (<384px), puis 50% à partir de 576px</li>
+                        <li>Résultat : Sections empilées sur mobile (lisibilité), côte à côte sur tablette+</li>
+                        <li>Bien meilleure UX que le comportement 50%/50% trop serré</li>
+                    </ul>
+                    <ul>
+                        <li>Landing pages simples avec deux blocs de contenu</li>
+                        <li>Comparaisons produits (avant/après, plan A/plan B)</li>
+                        <li>Galeries d'images à 2 colonnes</li>
+                        <li>Sections "Avantages / Inconvénients"</li>
+                        <li>Layouts éditoriaux à deux colonnes</li>
+                    </ul>
+
+                    <hr class="my-4">
+                    
+                    <h3>🚀 Avantages</h3>
+                    <ul>
+                        <li><strong>Simplicité</strong> : Code minimal, pas de classes multiples</li>
+                        <li><strong>Automatique</strong> : Responsive sans configuration supplémentaire</li>
+                        <li><strong>Prévisible</strong> : Comportement standard Bootstrap</li>
+                        <li><strong>Performant</strong> : CSS natif optimisé</li>
+                    </ul>
+
+                    <hr class="my-4">
+
+                    <h3>⚠️ Point d'attention</h3>
+                    <p>Si vous souhaitez garder les <strong>2 colonnes même sur mobile</strong> (déconseillé pour l'UX), vous devriez utiliser :</p>
+                    <ul>
+                        <li><code>col-6 col-sm-6 col-md-6</code> (redondant mais explicite)</li>
+                        <li>Ou ajouter une classe CSS personnalisée pour forcer <code>flex-basis: 50% !important</code></li>
+                    </ul>
+                    <p>Cependant, le comportement par défaut (empilement sur mobile) est <strong>recommandé pour l'accessibilité et la lisibilité</strong>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Explanation 8 -->
+<div class="modal fade" id="explainModal8" tabindex="-1" aria-labelledby="explainModalLabel8" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header bg-info text-white">
+                <h5 class="modal-title" id="explainModalLabel8">Explication - Layout 8 (3 colonnes convertible)</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container mt-4">
+                    <h3>📱 Vue d'ensemble</h3>
+                    <p>Layout 8 est un <strong>layout responsif et convertible</strong> qui adapte son affichage en fonction de la taille de l'écran. C'est un exemple avancé du système de grille Bootstrap avec <strong>3 sections</strong> qui se réorganisent sur plusieurs points de rupture (breakpoints).</p>
+                    
+                    <hr class="my-4">
+                    
+                    <h3>🏗️ Structure HTML</h3>
+                    <p>Le layout est organisé en <strong>4 rangées principales</strong> :</p>
+                    <ul>
+                        <li><strong>Header</strong> : Banneau supérieur (pleine largeur)</li>
+                        <li><strong>Intro</strong> : Section de présentation (pleine largeur)</li>
+                        <li><strong>Sections</strong> : 3 sections adaptatives</li>
+                        <li><strong>Footer</strong> : Pied de page (pleine largeur)</li>
+                    </ul>
+
+                    <hr class="my-4">
+                    
+                    <h3>📊 Composants détaillés</h3>
+                    <h4 class="mt-3">1. Header (En-tête)</h4>
+                    <ul>
+                        <li>Occupe toujours la <strong>largeur totale</strong> (12 colonnes)</li>
+                        <li>Hauteur minimum : 90px</li>
+                        <li>Fond : gris foncé (#2f2f2f)</li>
+                    </ul>
+
+                    <h4 class="mt-3">2. Intro (Section de présentation)</h4>
+                    <ul>
+                        <li>Pleine largeur sur tous les écrans</li>
+                        <li>Hauteur minimum : 250px</li>
+                        <li>Fond : gris moyen (#7e8aa0)</li>
+                        <li>Séparation visuelle claire du header</li>
+                    </ul>
+
+                    <h4 class="mt-3">3. Sections principales (1 et 2)</h4>
+                    <ul>
+                        <li><strong>Classes multiples</strong> : <code>col-md-6 col-lg-4</code></li>
+                        <li>Hauteur minimum : 150px</li>
+                        <li>Fonds alternés (normal et <code>bg-alt</code>)</li>
+                    </ul>
+
+                    <h4 class="mt-3">4. Section 3 (Section spéciale)</h4>
+                    <ul>
+                        <li><strong>Classes multiples</strong> : <code>col-md-12 col-lg-4</code></li>
+                        <li>Comportement unique à différentes résolutions</li>
+                    </ul>
+
+                    <h4 class="mt-3">5. Footer (Pied de page)</h4>
+                    <ul>
+                        <li>Pleine largeur</li>
+                        <li>Hauteur minimum : 60px</li>
+                        <li>Fond : gris foncé (#2f2f2f)</li>
+                    </ul>
+
+                    <hr class="my-4">
+                    
+                    <h3>📱 Responsivité - Transformation selon la taille d'écran</h3>
+                    
+                    <h4 class="mt-3">🔴 Très petit écran (&lt; 576px) - Mobile</h4>
+                    <ul>
+                        <li>Toutes les sections : <strong>100% de largeur</strong> (empilées verticalement)</li>
+                        <li>Classes <code>col-md-*</code> s'appliquent à partir de 768px</li>
+                        <li>Avant 768px, Bootstrap utilise <code>col-*</code> (par défaut 100%)</li>
+                    </ul>
+
+                    <h4 class="mt-3">🟠 Petit écran (576px - 767px) - Mobile paysage</h4>
+                    <ul>
+                        <li>Section 1 et 2 : <strong>50% chacune</strong> (<code>col-md-6</code>)</li>
+                        <li>Section 3 : <strong>100%</strong> (<code>col-md-12</code>)</li>
+                        <li>Les sections s'affichent côte à côte</li>
+                    </ul>
+
+                    <h4 class="mt-3">🟡 Tablette (768px - 991px) - Écran moyen</h4>
+                    <ul>
+                        <li>Section 1 et 2 : <strong>50% chacune</strong> (toujours <code>col-md-6</code>)</li>
+                        <li>Section 3 : <strong>100%</strong> (toujours <code>col-md-12</code>)</li>
+                        <li>Pas de changement par rapport au mobile paysage</li>
+                    </ul>
+
+                    <h4 class="mt-3">🟢 Desktop (992px - 1199px) - Ordinateur</h4>
+                    <ul>
+                        <li>Les 3 sections : <strong>33,33% chacune</strong> (<code>col-lg-4</code>)</li>
+                        <li>Toutes les sections s'affichent côte à côte</li>
+                        <li><strong>Transformation majeure</strong> par rapport aux petits écrans</li>
+                    </ul>
+
+                    <h4 class="mt-3">🔵 Grand écran (≥ 1200px) - Desktop XL</h4>
+                    <ul>
+                        <li>Les 3 sections restent à <strong>33,33% chacune</strong> (<code>col-lg-4</code>)</li>
+                        <li>Plus d'espaces libres sur les côtés</li>
+                    </ul>
+
+                    <hr class="my-4">
+                    
+                    <h3>🎨 Système de couleurs</h3>
+                    <table class="table table-striped table-sm">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Élément</th>
+                                <th>Couleur</th>
+                                <th>Code Hex</th>
+                                <th>Hauteur min</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Header</td>
+                                <td>Gris foncé</td>
+                                <td>#2f2f2f</td>
+                                <td>90px</td>
+                            </tr>
+                            <tr>
+                                <td>Intro</td>
+                                <td>Gris moyen</td>
+                                <td>#7e8aa0</td>
+                                <td>250px</td>
+                            </tr>
+                            <tr>
+                                <td>Section 1, 3</td>
+                                <td>Gris clair</td>
+                                <td>#dbdfe5</td>
+                                <td>150px</td>
+                            </tr>
+                            <tr>
+                                <td>Section 2 (bg-alt)</td>
+                                <td>Gris moyen</td>
+                                <td>#b4bac0</td>
+                                <td>150px</td>
+                            </tr>
+                            <tr>
+                                <td>Footer</td>
+                                <td>Gris foncé</td>
+                                <td>#2f2f2f</td>
+                                <td>60px</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <hr class="my-4">
+                    
+                    <h3>💡 Cas d'usage idéaux</h3>
+                    <ul>
+                        <li>✅ <strong>Galeries de produits</strong> - 3 colonnes sur desktop, responsive</li>
+                        <li>✅ <strong>Portefeuille/Portfolio</strong> - Projects qui s'adaptent</li>
+                        <li>✅ <strong>Services</strong> - 3 services affichés différemment selon l'écran</li>
+                        <li>✅ <strong>Équipe</strong> - Fiches membres responsives</li>
+                        <li>✅ <strong>Tarification</strong> - Plans avec adaptation responsive</li>
+                        <li>✅ <strong>Blog</strong> - Articles en 3 colonnes</li>
+                    </ul>
+
+                    <hr class="my-4">
+                    
+                    <h3>⚡ Points clés techniques</h3>
+                    <ol>
+                        <li><strong>Container-fluid</strong> : Utilise 100% de largeur, pas de max-width</li>
+                        <li><strong>Breakpoints actifs</strong> : <code>md</code> (768px) et <code>lg</code> (992px)</li>
+                        <li><strong>Mobile-first</strong> : Les petits écrans sont la base, puis on ajoute les classes med/lg</li>
+                        <li><strong>Conversion progressive</strong> : 1 colonne → 2 colonnes → 3 colonnes</li>
+                        <li><strong>Flexibilité</strong> : La Section 3 change de placement pour équilibre visuel</li>
+                    </ol>
+
+                    <hr class="my-4">
+                    
+                    <h3>🚀 Avantages de ce layout</h3>
+                    <ul>
+                        <li>✔️ Très responsive et adaptable</li>
+                        <li>✔️ Utilise efficacement l'espace selon l'appareil</li>
+                        <li>✔️ Améliore l'UX sur tous les écrans</li>
+                        <li>✔️ Facile à maintenir avec Bootstrap</li>
+                        <li>✔️ Performance optimale (pas de scroll horizontal)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Explanation 9 -->
+<div class="modal fade" id="explainModal9" tabindex="-1" aria-labelledby="explainModalLabel9" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header bg-info text-white">
+                <h5 class="modal-title" id="explainModalLabel9">Explication - Layout 9 (4 colonnes convertible)</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container mt-4">
+                    <h3>📱 Vue d'ensemble</h3>
+                    <p>Layout 9 est un <strong>layout ultra-responsif</strong> avec <strong>4 sections</strong> qui se réorganisent selon plusieurs points de rupture (md, lg, xl). Il illustre la conversion progressive de <strong>1 → 2 → 3 → 4 colonnes</strong> avec un comportement spécial pour la 4ᵉ section en <strong>desktop</strong>.</p>
+
+                    <hr class="my-4">
+
+                    <h3>🏗️ Structure HTML</h3>
+                    <ul>
+                        <li><strong>Header</strong> : En-tête pleine largeur (12 colonnes)</li>
+                        <li><strong>Intro</strong> : Section de présentation pleine largeur</li>
+                        <li><strong>4 Sections</strong> (répartition par breakpoint) :
+                            <ul>
+                                <li><strong>Section 1</strong> : <code>col-md-6 col-lg-12 col-xl-3</code></li>
+                                <li><strong>Section 2</strong> : <code>col-md-6 col-lg-6 col-xl-3</code></li>
+                                <li><strong>Section 3</strong> : <code>col-md-6 col-lg-6 col-xl-3</code></li>
+                                <li><strong>Section 4</strong> : <code>col-md-6 col-lg-12 col-xl-3</code></li>
+                            </ul>
+                        </li>
+                        <li><strong>Footer</strong> : Pied de page pleine largeur</li>
+                    </ul>
+
+                    <hr class="my-4">
+
+                    <h3>📱 Responsivité par breakpoint</h3>
+                    <h4 class="mt-3">🔴 Mobile (&lt; 768px)</h4>
+                    <ul>
+                        <li>Toutes les sections : <strong>100% de largeur</strong> (empilées)</li>
+                        <li>Les classes <code>md</code>/<code>lg</code>/<code>xl</code> ne s'appliquent pas encore</li>
+                    </ul>
+
+                    <h4 class="mt-3">🟡 Tablette (≥ 768px, <code>md</code>)</h4>
+                    <ul>
+                        <li>Sections 1–3 : <strong>50%</strong> chacune (<code>col-md-6</code>)</li>
+                        <li>Section 4 : <strong>50%</strong> (<code>col-md-6</code>)</li>
+                        <li>Affichage typique : 2 colonnes par ligne, 2 lignes</li>
+                    </ul>
+                    <pre class="bg-light p-3 border rounded small">
+md (≥768px):
+| S1 (50%) | S2 (50%) |
+| S3 (50%) | S4 (50%) |
+                    </pre>
+
+                    <h4 class="mt-3">🟢 Desktop (≥ 992px, <code>lg</code>)</h4>
+                    <ul>
+                        <li><strong>Section 1</strong> : pleine largeur (<code>col-lg-12</code>)</li>
+                        <li><strong>Sections 2 & 3</strong> : deux colonnes à 50% (<code>col-lg-6</code> chacune)</li>
+                        <li><strong>Section 4</strong> : pleine largeur (<code>col-lg-12</code>)</li>
+                        <li>Affichage typique : 3 lignes — 12, puis 6+6, puis 12.</li>
+                    </ul>
+                    <pre class="bg-light p-3 border rounded small">
+lg (≥992px):
+| S1 (100%)           |
+| S2 (50%) | S3 (50%) |
+| S4 (100%)           |
+                    </pre>
+
+                    <h4 class="mt-3">🔵 Grand écran (≥ 1200px, <code>xl</code>)</h4>
+                    <ul>
+                        <li>Toutes les 4 sections : <strong>25%</strong> chacune (<code>col-xl-3</code>).</li>
+                        <li>Affichage typique : <strong>1 ligne de 4 colonnes</strong> (alignées sur une seule rangée).</li>
+                        <li>Note Bootstrap 5 : la grille est en flex, pas besoin de <code>clearfix</code> — le wrapping se gère naturellement via les classes de colonnes.</li>
+                    </ul>
+                    <pre class="bg-light p-3 border rounded small">
+xl (≥1200px):
+| S1 (25%) | S2 (25%) | S3 (25%) | S4 (25%) |
+                    </pre>
+
+                    <hr class="my-4">
+
+                    <h3>📊 Composants et styles</h3>
+                    <h4 class="mt-3">Header</h4>
+                    <ul>
+                        <li>Largeur : 12 colonnes</li>
+                        <li>Hauteur min : 90px</li>
+                        <li>Couleur : <code>#2f2f2f</code> (gris foncé)</li>
+                    </ul>
+
+                    <h4 class="mt-3">Intro</h4>
+                    <ul>
+                        <li>Largeur : 12 colonnes</li>
+                        <li>Hauteur min : 250px</li>
+                        <li>Couleur : <code>#7e8aa0</code> (gris moyen)</li>
+                    </ul>
+
+                    <h4 class="mt-3">Sections</h4>
+                    <ul>
+                        <li>Hauteur min : 150px</li>
+                        <li>Section standard : <code>#dbdfe5</code> (gris clair)</li>
+                        <li>Variation <code>bg-alt</code> : <code>#b4bac0</code> (gris moyen)</li>
+                    </ul>
+
+                    <h4 class="mt-3">Footer</h4>
+                    <ul>
+                        <li>Largeur : 12 colonnes</li>
+                        <li>Hauteur min : 60px</li>
+                        <li>Couleur : <code>#2f2f2f</code> (gris foncé)</li>
+                    </ul>
+
+                    <hr class="my-4">
+
+                    <h3>🧠 Points techniques clés</h3>
+                    <ol>
+                        <li><strong>Mobile-first</strong> : Les classes s'appliquent à partir de leur breakpoint.</li>
+                        <li><strong>Empilement contrôlé</strong> : La 4ᵉ section passe en pleine largeur en <code>lg</code> grâce à <code>col-lg-12</code>.</li>
+                        <li><strong>Uniformisation</strong> en <code>xl</code> : Les 4 sections deviennent homogènes (25%).</li>
+                        <li><strong>Container-fluid</strong> : Utilise toute la largeur du viewport.</li>
+                        <li><strong>Lisibilité visuelle</strong> : Alternance des fonds pour distinguer les blocs.</li>
+                    </ol>
+
+                    <hr class="my-4">
+
+                    <h3>💼 Cas d'usage recommandés</h3>
+                    <ul>
+                        <li>Galeries produits/images avec adaptation parfaite.</li>
+                        <li>Catalogues ou services en grille multi-breakpoints.</li>
+                        <li>Portfolios professionnels multi-appareils.</li>
+                        <li>Tableaux de bord avec section spéciale en desktop.</li>
+                        <li>Landing pages riches et modulaires.</li>
+                    </ul>
+
+                    <hr class="my-4">
+
+                    <h3>🚀 Avantages</h3>
+                    <ul>
+                        <li>Adaptation optimale sur toutes tailles d'écran.</li>
+                        <li>Organisation claire grâce aux conversions par breakpoint.</li>
+                        <li>Flexibilité élevée pour des contenus variés.</li>
+                        <li>Maintenance simple via classes Bootstrap.</li>
+                    </ul>
+
+                    <hr class="my-4">
+
+                    <h3>🔄 Solution Alternative (layout9-2.html)</h3>
+                    <p>Une version simplifiée qui <strong>supprime les classes <code>col-md-*</code></strong> pour ignorer complètement le breakpoint <code>md</code>.</p>
+
+                    <h4 className="mt-3">📊 Comparaison des comportements</h4>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Breakpoint</th>
+                                <th>Layout 9 (original)</th>
+                                <th>Layout 9-2 (simplifié)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>xs/sm</strong> (&lt; 768px)</td>
+                                <td>1 colonne (100%, empilement)</td>
+                                <td>1 colonne (100%, empilement)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>md</strong> (768-992px)</td>
+                                <td>2 colonnes (50% chaque section)</td>
+                                <td>1 colonne (100%, empilement)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>lg</strong> (992-1200px)</td>
+                                <td>3 lignes (12, 6+6, 12)</td>
+                                <td>3 lignes (12, 6+6, 12)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>xl</strong> (≥ 1200px)</td>
+                                <td>4 colonnes (25% chacune)</td>
+                                <td>4 colonnes (25% chacune)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h4 className="mt-3">✅ Quand utiliser layout9-2 ?</h4>
+                    <ul>
+                        <li>📱 Quand vous préférez le <strong>plein écran sur tablette</strong> (md) plutôt que deux colonnes étroites</li>
+                        <li>👁️ Pour une meilleure <strong>lisibilité</strong> sur écrans moyens (1 colonne plutôt que 2)</li>
+                        <li>⚡ Pour une <strong>transition progressive</strong> : mobile → empilement complet jusqu'à lg</li>
+                        <li>🎯 Quand les sections contiennent du texte/contenu long qui bénéficie de pleine largeur</li>
+                    </ul>
+
+                    <h4 className="mt-3">❌ Quand garder layout9 (original) ?</h4>
+                    <ul>
+                        <li>📦 Quand vous avez des sections <strong>compactes</strong> (carrés, icônes) qui tirent parti des 2 colonnes en md</li>
+                        <li>🖼️ Pour une galerie de petits éléments où 2 colonnes a du sens</li>
+                        <li>⚙️ Quand vous voulez plus de <strong>contrôle granulaire</strong> sur md (768-992px)</li>
+                    </ul>
+
+                    <h4 className="mt-3">🔧 Différence technique</h4>
+                    <pre class="bg-light p-3 border rounded small">
+Layout 9 (original):
+&lt;div class="col-md-6 col-lg-12 col-xl-3"&gt;
+
+Layout 9-2 (simplifié):
+&lt;div class="col-lg-12 col-xl-3"&gt;
+                    </pre>
+                    <p>Les classes <code>col-md-6</code> sont supprimées → pas d'impact à 768-992px → sections pleines largeurs jusqu'à lg.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

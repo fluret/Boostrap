@@ -1,0 +1,7 @@
+<div class="m-4">
+    <label class="form-label" for="inputPassword">Password</label>
+    <input type="password" class="form-control" id="inputPassword">
+    <div class="form-text">
+        Must be 8-20 characters long, contain letters, numbers and special characters, but must not contain spaces.
+    </div>
+</div>

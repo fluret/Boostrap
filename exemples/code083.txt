@@ -1,0 +1,26 @@
+<div class="m-4">
+    <div class="row mb-3">
+        <label class="col-sm-2 col-form-label col-form-label-lg">State</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-lg">
+                <option>Large select</option>
+            </select>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-2 col-form-label">State</label>
+        <div class="col-sm-10">
+            <select class="form-select">
+                <option>Default select</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <label class="col-sm-2 col-form-label col-form-label-sm">State</label>
+        <div class="col-sm-10">
+            <select class="form-select form-select-sm">
+                <option>Small select</option>
+            </select>
+        </div>
+    </div>
+</div>

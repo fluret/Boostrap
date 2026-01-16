@@ -1,0 +1,5 @@
+<div class="m-4">
+    <p class="text-start">Left aligned text on all viewport sizes.</p>
+    <p class="text-center">Center aligned text on all viewport sizes.</p>
+    <p class="text-end">Right aligned text on all viewport sizes.</p>
+</div>

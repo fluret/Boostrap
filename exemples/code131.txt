@@ -1,0 +1,11 @@
+<div class="m-4">
+    <h2>Non-Responsive Image</h2>
+    <div class="box">
+        <img src="./images/sky.jpg" alt="Cloudy Sky">
+    </div>
+    <hr>
+    <h2>Responsive Image</h2>
+    <div class="box">
+        <img src="./images/sky.jpg" class="img-fluid" alt="Cloudy Sky">
+    </div>
+</div>

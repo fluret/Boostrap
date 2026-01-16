@@ -1,0 +1,37 @@
+<div class="m-4">
+    <h3 class="mb-4">Default Placement of Checkboxes</h3>
+    <div class="row">
+        <div class="col-12">
+            <div class="form-check mb-3">
+                <input type="checkbox" class="form-check-input" name="hobbies" id="checkMusic">
+                <label class="form-check-label" for="checkMusic">Music</label>
+            </div>
+            <div class="form-check mb-3">
+                <input type="checkbox" class="form-check-input" name="hobbies" id="checkTravel" checked>
+                <label class="form-check-label" for="checkTravel">Travel</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" name="hobbies" id="checkReading" checked>
+                <label class="form-check-label" for="checkReading">Reading</label>
+            </div>
+        </div>
+    </div>
+  	<hr>
+    <h3 class="mb-4">Inline Placement of Checkboxes</h3>
+    <div class="row">
+        <div class="col-12">
+            <div class="form-check form-check-inline">
+                <input type="checkbox" class="form-check-input" name="hobbies" id="checkMusic">
+                <label class="form-check-label" for="checkMusic">Music</label>
+            </div>
+            <div class="form-check form-check-inline ms-3">
+                <input type="checkbox" class="form-check-input" name="hobbies" id="checkTravel" checked>
+                <label class="form-check-label" for="checkTravel">Travel</label>
+            </div>
+            <div class="form-check form-check-inline ms-3">
+                <input type="checkbox" class="form-check-input" name="hobbies" id="checkReading" checked>
+                <label class="form-check-label" for="checkReading">Reading</label>
+            </div>
+        </div>
+    </div>
+</div>

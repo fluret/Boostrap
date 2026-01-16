@@ -1,0 +1,4 @@
+<div class="m-4">
+    <input type="text" class="form-control mb-2" value="This input value cannot be changed." readonly>
+    <textarea rows="3" class="form-control" readonly>This textarea value cannot be changed.</textarea>
+</div>

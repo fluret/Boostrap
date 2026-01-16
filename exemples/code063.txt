@@ -1,0 +1,13 @@
+<div class="m-4">
+    <div class="list-group w-50">
+        <label class="list-group-item">
+            <input type="checkbox" class="form-check-input me-1" name="hobbies"> Music
+        </label>
+        <label class="list-group-item">
+            <input type="checkbox" class="form-check-input me-1" name="hobbies"> Travel &amp; Adventure
+        </label>
+        <label class="list-group-item">
+            <input type="checkbox" class="form-check-input me-1" name="hobbies"> Reading
+        </label>
+    </div>
+</div>

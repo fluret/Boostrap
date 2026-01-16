@@ -1,0 +1,13 @@
+<div class="m-4">
+    <div class="btn-group">
+        <button type="button" class="btn btn-success">
+            <i class="bi-eye"></i> View
+        </button>
+        <button type="button" class="btn btn-warning">
+            <i class="bi-pencil"></i> Edit
+        </button>
+        <button type="button" class="btn btn-danger">
+            <i class="bi-trash"></i> Delete
+        </button>
+    </div>
+</div>

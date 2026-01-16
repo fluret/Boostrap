@@ -1,0 +1,5 @@
+<!-- Container with border, extra paddings and margins -->
+<div class="container border py-3 my-3">
+    <h1>This is a heading</h1>
+    <p>This is a paragraph of text.</p>
+</div>

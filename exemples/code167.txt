@@ -1,0 +1,43 @@
+<div class="m-4">
+	<!-- Default alignment left -->
+    <div>
+        <div class="spinner-border">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+    <hr>
+    <!-- Center alignment using flex utilities -->
+    <div class="d-flex justify-content-center">
+        <div class="spinner-border">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+    <hr>
+    <!-- Center alignment using text alignment utilities -->
+    <div class="text-center">
+        <div class="spinner-border">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+    <hr>
+    <!-- Right alignment using flex utilities -->
+    <div class="d-flex justify-content-end">
+        <div class="spinner-border">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+  	<hr>
+  	<!-- Right alignment using text alignment utilities -->
+    <div class="text-end">
+        <div class="spinner-border">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+  	<hr>
+  	<!-- Right alignment using float utilities -->
+    <div class="clearfix">
+        <div class="spinner-border float-end">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+</div>

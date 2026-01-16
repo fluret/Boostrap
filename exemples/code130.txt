@@ -1,0 +1,5 @@
+<div class="m-4">
+    <img src="./images/avatar.svg" class="rounded" alt="Rounded Image">
+    <img src="./images/avatar.svg" class="rounded-circle" alt="Circular Image">
+    <img src="./images/avatar.svg" class="img-thumbnail" alt="Thumbnail Image">
+</div>

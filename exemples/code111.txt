@@ -1,0 +1,17 @@
+<div class="m-4">
+    <!-- Larger input group -->
+    <div class="input-group input-group-lg">
+        <span class="input-group-text">Large</span>
+        <input type="text" class="form-control">
+    </div>
+    <!-- Default input group -->
+    <div class="input-group mt-2">
+        <span class="input-group-text">Default</span>
+        <input type="text" class="form-control">
+    </div>
+    <!-- Smaller input group -->
+    <div class="input-group input-group-sm mt-2">
+        <span class="input-group-text">Small</span>
+        <input type="text" class="form-control">
+    </div>
+</div>

@@ -1,0 +1,40 @@
+<!DOCTYPE htpl>
+<htpl lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap 4 Position Classes</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+        <style>
+            .bs-example {
+                margin: 20px;
+                padding: 20px;
+                height: 200px;
+                overflow-y: auto;
+                border: 1px solid #ccc;
+            }
+
+            .box {
+                padding: 20px;
+                background: #abb1b8;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="bs-example">
+            <p class="mb-3"><strong>Note:</strong> Position an element at the top of the viewport, from edge to edge,
+                but only after you scroll past it. The .sticky-top class uses CSS's position: sticky, however isn't
+                fully supported in all browsers. Scroll the area to see how it works.</p>
+            <div class="box sticky-top">.sticky-top</div>
+            <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at,
+                luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac
+                nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci
+                sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in
+                fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut elit
+                suscipit, id interdum neque porttitor. Integer faucibus ligula.</p>
+        </div>
+    </body>

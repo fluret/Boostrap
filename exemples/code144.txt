@@ -1,0 +1,34 @@
+<div class="m-4">
+    <div class="card-group">
+        <div class="card">
+            <img src="./images/thumbnail.svg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some dummy text to make up the card's content. You can replace it anytime.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 5 mins ago</small>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/thumbnail.svg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some dummy text to make up the card's content. You can replace it anytime.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 5 mins ago</small>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/thumbnail.svg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some dummy text to make up the card's content. You can replace it anytime.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 5 mins ago</small>
+            </div>
+        </div>
+    </div>
+</div>

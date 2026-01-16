@@ -1,0 +1,19 @@
+    body {
+        padding-top: 56px;
+        /* Adjust according to your header's height */
+    }
+
+    .navbar {
+        background-color: #1c618f;
+        /* Change to your preferred color */
+    }
+
+    .navbar-brand {
+        color: #7c2626 !important;
+        /* Change to your preferred text color */
+    }
+
+    .navbar-nav .nav-link {
+        color: #864848 !important;
+        /* Change to your preferred text color */
+    }

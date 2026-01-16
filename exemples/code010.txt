@@ -1,0 +1,14 @@
+<div class="container">
+    <!--Row with two equal columns-->
+    <div class="row">
+        <div class="col">Column one</div>
+        <div class="col">Column two</div>
+    </div>
+    
+    <!--Row with three equal columns-->
+    <div class="row">
+        <div class="col">Column one</div>
+        <div class="col">Column two</div>
+        <div class="col">Column three</div>
+    </div>
+</div>

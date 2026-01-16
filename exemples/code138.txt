@@ -1,0 +1,14 @@
+<div class="m-4">
+    <div class="card" style="width: 300px;">
+        <div class="card-header">Featured</div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+            <a href="#" class="card-link">Add More</a>
+            <a href="#" class="card-link">Share</a>
+        </div>
+    </div>
+</div>

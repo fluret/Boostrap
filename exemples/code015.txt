@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8">Column left</div>
+        <div class="col-sm-4">
+            <!--Column right with nested rows and columns-->
+            <div class="row">
+                <div class="col-12"></div>
+            </div>
+            <div class="row">
+                <div class="col-6"></div>
+                <div class="col-6"></div>
+            </div>
+        </div>
+    </div>
+</div>

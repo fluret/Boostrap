@@ -1,0 +1,23 @@
+    <div class="m-4">
+        <h4>Left alignment (This is default)</h4>
+        <div class="box">
+            <img src="./images/avatar.svg" alt="Sample Image">
+        </div>
+        <h4>Center alignment using text alignment classes</h4>
+        <div class="box text-center">
+            <img src="./images/avatar.svg" alt="Sample Image">
+        </div>
+        <h4>Right alignment using text alignment classes</h4>
+        <div class="box text-end">
+            <img src="./images/avatar.svg" alt="Sample Image">
+        </div>
+        <h4>Horizontal alignment using float classes</h4>
+        <div class="box clearfix">
+            <img src="./images/avatar.svg" class="float-start" alt="Sample Image">
+            <img src="./images/avatar.svg" class="float-end" alt="Sample Image">
+        </div>
+        <h4>Center alignment of block-level image using auto margin</h4>
+        <div class="box">
+            <img src="./images/avatar.svg" class="d-block mx-auto" alt="Sample Image">
+        </div>
+    </div>

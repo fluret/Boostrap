@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="row justify-content-md-center">
+        <div class="col-md-3">Column left</div>
+        <div class="col-md-auto">Variable width column</div>
+        <div class="col-md-3">Column right</div>
+    </div>
+    <div class="row">
+        <div class="col">Column left</div>
+        <div class="col-auto">Variable width column</div>
+        <div class="col">Column right</div>
+    </div>
+</div>

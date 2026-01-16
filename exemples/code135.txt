@@ -1,0 +1,5 @@
+<div class="m-4">
+    <div class="card">
+        <div class="card-body">This is some text within a padded box.</div>
+    </div>
+</div>

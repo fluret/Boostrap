@@ -1,0 +1,18 @@
+<div class="m-4">
+    <h2 class="mt-4">Video with 21:9 aspect ratio</h2>
+    <div class="ratio ratio-21x9">
+    	<iframe src="//www.youtube.com/embed/YE7VzlLtp-4" title="YouTube video" allowfullscreen></iframe>
+	</div>
+    <h2 class="mt-4">Video with 16:9 aspect ratio</h2>
+    <div class="ratio ratio-16x9">
+        <iframe src="//www.youtube.com/embed/YE7VzlLtp-4" title="YouTube video" allowfullscreen></iframe>
+    </div>
+    <h2 class="mt-4">Video with 4:3 aspect ratio</h2>
+	<div class="ratio ratio-4x3">
+        <iframe src="//www.youtube.com/embed/YE7VzlLtp-4" title="YouTube video" allowfullscreen></iframe>
+    </div>
+    <h2 class="mt-4">Video with 1:1 aspect ratio</h2>
+    <div class="ratio ratio-1x1">
+        <iframe src="//www.youtube.com/embed/YE7VzlLtp-4" title="YouTube video" allowfullscreen></iframe>
+    </div>
+</div>

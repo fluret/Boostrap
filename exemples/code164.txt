@@ -1,0 +1,8 @@
+<div class="m-4">
+    <div class="spinner-border spinner-border-sm">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-grow spinner-grow-sm">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+</div>

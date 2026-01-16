@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap Examples - Code 001 à 029</title>
+<link rel="stylesheet" href="./css/style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="container-custom">
+        <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
+            <h1 class="page-title mb-0">
+                <i class="fa-solid fa-code"></i> Bootstrap Examples
+                <div style="font-size: 1rem; color: #999; margin-top: 10px;">Code 001 - 029</div>
+            </h1>
+            <a href="../index.html" class="btn btn-outline-primary btn-sm align-self-start">
+                <i class="fa-solid fa-arrow-left me-1"></i> Retour index
+            </a>
+        </div>
+        <div class="table-wrapper">
+            <table class="table table-striped table-hover align-middle w-100">
+                <thead>
+                    <tr>
+                        <th>N°</th>
+                        <th>Fichier</th>
+                        <th colspan="2">Actions</th>
+                        <th>N°</th>
+                        <th>Fichier</th>
+                        <th colspan="2">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="badge-number">1</span></td>
+                        <td>code001.html</td>
+                        <td><a href="code001.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code001')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                        <td><span class="badge-number">2</span></td>
+                        <td>code002.html</td>
+                        <td><a href="code002.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code002')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge-number">3</span></td>
+                        <td>code003.html</td>
+                        <td><a href="code003.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code003')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                        <td><span class="badge-number">4</span></td>
+                        <td>code004.html</td>
+                        <td><a href="code004.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code004')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge-number">5</span></td>
+                        <td>code005.html</td>
+                        <td><a href="code005.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code005')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                        <td><span class="badge-number">6</span></td>
+                        <td>code006.html</td>
+                        <td><a href="code006.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code006')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge-number">7</span></td>
+                        <td>code007.html</td>
+                        <td><a href="code007.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code007')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                        <td><span class="badge-number">8</span></td>
+                        <td>code008.html</td>
+                        <td><a href="code008.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code008')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge-number">9</span></td>
+                        <td>code009.html</td>
+                        <td><a href="code009.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code009')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                        <td><span class="badge-number">10</span></td>
+                        <td>code010.html</td>
+                        <td><a href="code010.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code010')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge-number">11</span></td>
+                        <td>code011.html</td>
+                        <td><a href="code011.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code011')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                        <td><span class="badge-number">12</span></td>
+                        <td>code012.html</td>
+                        <td><a href="code012.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code012')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge-number">13</span></td>
+                        <td>code013.html</td>
+                        <td><a href="code013.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code013')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                        <td><span class="badge-number">14</span></td>
+                        <td>code014.html</td>
+                        <td><a href="code014.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code014')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge-number">15</span></td>
+                        <td>code015.html</td>
+                        <td><a href="code015.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code015')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                        <td><span class="badge-number">16</span></td>
+                        <td>code016.html</td>
+                        <td><a href="code016.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code016')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge-number">17</span></td>
+                        <td>code017.html</td>
+                        <td><a href="code017.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code017')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                        <td><span class="badge-number">18</span></td>
+                        <td>code018.html</td>
+                        <td><a href="code018.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code018')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge-number">19</span></td>
+                        <td>code019.html</td>
+                        <td><a href="code019.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code019')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                        <td><span class="badge-number">20</span></td>
+                        <td>code020.html</td>
+                        <td><a href="code020.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code020')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge-number">21</span></td>
+                        <td>code021.html</td>
+                        <td><a href="code021.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code021')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                        <td><span class="badge-number">22</span></td>
+                        <td>code022.html</td>
+                        <td><a href="code022.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code022')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge-number">23</span></td>
+                        <td>code023.html</td>
+                        <td><a href="code023.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code023')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                        <td><span class="badge-number">24</span></td>
+                        <td>code024.html</td>
+                        <td><a href="code024.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code024')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge-number">25</span></td>
+                        <td>code025.html</td>
+                        <td><a href="code025.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code025')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                        <td><span class="badge-number">26</span></td>
+                        <td>code026.html</td>
+                        <td><a href="code026.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code026')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge-number">27</span></td>
+                        <td>code027.html</td>
+                        <td><a href="code027.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code027')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                        <td><span class="badge-number">28</span></td>
+                        <td>code028.html</td>
+                        <td><a href="code028.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code028')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge-number">29</span></td>
+                        <td>code029.html</td>
+                        <td><a href="code029.html" target="_blank" class="btn btn-code btn-sm"><i class="fa-solid fa-eye me-2"></i>Exemple</a></td>
+                        <td><button class="btn btn-view-code btn-sm" data-bs-toggle="modal" data-bs-target="#codeModal" onclick="loadCode('code029')"><i class="fa-solid fa-code me-2"></i>Code</button></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="note-section">
+            <p class="mb-0"><i class="fa-solid fa-info-circle me-2"></i><strong>Note:</strong> Cliquez sur "Exemple" pour ouvrir dans un nouvel onglet, ou sur "Code" pour voir le code source.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Modal pour afficher le code -->
+<div class="modal fade" id="codeModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered code-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">
+                    <i class="fa-solid fa-code me-2"></i>Code Source
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <pre class="code-block"></pre>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+function loadCode(fileName) {
+    const codeBlock = document.querySelector('.code-block');
+    const filePath = `./${fileName}.txt`;
+    
+    fetch(filePath)
+        .then(response => response.text())
+        .then(code => {
+            codeBlock.textContent = code;
+        })
+        .catch(error => {
+            codeBlock.textContent = `Erreur lors du chargement du code de ${fileName}`;
+            console.error('Erreur:', error);
+        });
+}
+</script>
+</body>
+</html>
+
+
+
+
+
+
+

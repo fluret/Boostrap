@@ -1,0 +1,8 @@
+<div class="m-4">
+    <nav class="nav nav-pills nav-justified">
+        <a href="#" class="nav-item nav-link">Home</a>
+        <a href="#" class="nav-item nav-link">About</a>
+        <a href="#" class="nav-item nav-link active">Explore Products</a>
+        <a href="#" class="nav-item nav-link">Contact Us</a>
+    </nav>
+</div>

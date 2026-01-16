@@ -1,0 +1,5 @@
+&lt;div class="container"&gt;
+    &lt;h1&gt;This is a heading&lt;/h1&gt;
+    &lt;p&gt;This is a paragraph of text.&lt;/p&gt;
+    &lt;p class="mt-3 text-info"&gt;&lt;strong&gt;Tip:&lt;/strong&gt; Open the output in a new blank tab (Click the arrow next to "Show Output" button) and resize the browser window to understand how the Bootstrap responsive grid system works.&lt;/p&gt;
+&lt;/div&gt;

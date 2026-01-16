@@ -1,0 +1,8 @@
+<div class="m-4">
+    <nav class="nav nav-pills">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link">Profile</a>
+        <a href="#" class="nav-link active">Messages <span class="badge bg-light text-primary">24</span></a>
+        <a href="#" class="nav-link">Notification <span class="badge bg-primary">5</span></a>
+    </nav>
+</div>

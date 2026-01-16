@@ -1,0 +1,16 @@
+<div class="m-4">
+    <form>
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="switchDefault">
+            <label class="form-check-label" for="switchDefault">Default switch checkbox</label>
+        </div>
+        <div class="form-check form-switch mt-2">
+            <input class="form-check-input" type="checkbox" id="switchChecked" checked>
+            <label class="form-check-label" for="switchChecked">Checked switch checkbox</label>
+        </div>
+        <div class="form-check form-switch mt-2">
+            <input class="form-check-input" type="checkbox" id="switchDisabled" disabled>
+            <label class="form-check-label" for="switchDisabled">Disabled switch checkbox</label>
+        </div>
+    </form>
+</div>

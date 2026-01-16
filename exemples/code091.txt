@@ -1,0 +1,12 @@
+<div class="m-4">
+    <form>
+        <div class="form-check form-check-inline">
+            <input type="checkbox" class="form-check-input" name="customCheck" id="customCheck1">
+            <label class="form-check-label" for="customCheck1">Custom checkbox</label>
+        </div>
+        <div class="form-check form-check-inline ms-4">
+            <input type="checkbox" class="form-check-input" name="customCheck" id="customCheck2" checked>
+            <label class="form-check-label" for="customCheck2">Another custom checkbox</label>
+        </div>
+    </form>
+</div>

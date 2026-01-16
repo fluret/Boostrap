@@ -1,0 +1,7 @@
+<div class="m-4">
+    <input type="text" class="form-control mb-3" placeholder="Disabled input" disabled>
+    <textarea class="form-control mb-3" placeholder="Disabled textarea" disabled></textarea>
+    <select class="form-select" disabled>
+        <option>Disabled select</option>
+    </select>
+</div>

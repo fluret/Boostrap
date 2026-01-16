@@ -1,0 +1,7 @@
+<div class="m-4">
+    <p class="text-sm-center">Text will be center aligned on small sized (sm) viewports and up.</p>
+    <p class="text-md-center">Text will be center aligned on medium sized (md) viewports and up.</p>
+    <p class="text-lg-center">Text will be center aligned on large sized (lg) viewports and up.</p>
+    <p class="text-xl-center">Text will be center aligned on extra-large sized (xl) viewports and up.</p>
+	<div class="my-3"><strong>Note:</strong> Open the output in a new blank tab (Click the arrow next to "Show Output" button) and resize the browser window to understand how the Bootstrap responsive text alignment works.</div>
+</div>

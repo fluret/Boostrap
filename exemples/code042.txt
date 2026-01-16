@@ -1,0 +1,8 @@
+<div class="m-4">
+    <div class="badge bg-primary text-wrap" style="width: 6rem;">
+        This text will wrap.
+    </div>
+    <div class="bg-warning text-nowrap mt-4" style="width: 6rem;">
+        This text will overflow the element's box.
+    </div>
+</div>

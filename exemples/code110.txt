@@ -1,0 +1,30 @@
+<div class="m-4">
+    <div class="row">
+        <div class="col-6">
+            <div class="input-group">
+                <button type="button" class="btn btn-outline-secondary">Action</button>
+                <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Action</a>
+                    <a href="#" class="dropdown-item">Another action</a>
+                </div>
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="input-group">
+                <input type="text" class="form-control">
+                <button type="button" class="btn btn-outline-secondary">Action</button>
+                <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Action</a>
+                    <a href="#" class="dropdown-item">Another action</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

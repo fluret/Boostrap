@@ -1,0 +1,4 @@
+<div class="m-4">
+    <p>This is how a normal paragraph looks like in Bootstrap.</p>
+    <p class="lead">This is how a paragraph stands out in Bootstrap.</p>
+</div>
